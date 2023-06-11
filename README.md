@@ -6,7 +6,7 @@ Link de la pagina hosteada: https://minireto-bl5i42el1-benjagood.vercel.app/
 
 ## Diagrama: 
 
-![Diagrama]([https://ejemplo.com/imagen.png](https://imgur.com/v0P7cdW))
+![Diagrama]([https://imgur.com/v0P7cdW])
 
 
 
