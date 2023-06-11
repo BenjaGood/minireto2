@@ -1,0 +1,11 @@
+# Ignorar carpetas de dependencias
+node_modules/
+
+# Ignorar archivos de bloqueo de dependencias
+package-lock.json
+
+# Ignorar archivos de compilación
+/build
+
+# Ignorar archivos de configuración local
+.env
