@@ -6,7 +6,30 @@ Link de la pagina hosteada: https://minireto-bl5i42el1-benjagood.vercel.app/
 
 ## Diagrama: 
 
-![Diagrama](https://imgur.com/v0P7cdW)
+![Diagrama](https://i.imgur.com/v0P7cdW.png)
+
+Explicación:
+
+App Component: El componente principal de la aplicación que engloba todos los demás componentes. Se encarga de mostrar el encabezado y contiene el AlbumList Component.
+
+AlbumList Component: El componente que muestra la lista de álbumes. Realiza llamadas a la API para obtener los datos de los álbumes y muestra una instancia del Album Component por cada álbum.
+
+Album Component: El componente que representa un álbum individual. Muestra la información del álbum, como el nombre y el artista, y también muestra los comentarios asociados a ese álbum. Permite agregar nuevos comentarios y eliminar comentarios existentes.
+
+API calls: Este componente se comunica con la API para realizar las llamadas necesarias para obtener la lista de álbumes, los comentarios de un álbum específico, agregar un nuevo comentario y eliminar comentarios existentes.
+
+El flujo de datos es el siguiente:
+
+El componente App renderiza el componente AlbumList.
+El componente AlbumList realiza una llamada a la API para obtener la lista de álbumes.
+Por cada álbum en la lista, el componente AlbumList renderiza una instancia del componente Album, pasándole los datos correspondientes.
+El componente Album muestra la información del álbum y los comentarios asociados.
+El usuario puede agregar un nuevo comentario a través del formulario en el componente Album.
+El componente Album realiza una llamada a la API para agregar el comentario.
+El componente Album actualiza la lista de comentarios después de agregar el nuevo comentario.
+El usuario puede eliminar un comentario existente haciendo clic en el botón "Eliminar" en el componente Album.
+El componente Album realiza una llamada a la API para eliminar el comentario.
+El componente Album actualiza la lista de comentarios después de eliminar el comentario.
 
 
 
